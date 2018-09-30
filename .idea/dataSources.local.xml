@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails rosewall: test" uuid="2d84f4fd-5580-4e6e-86a0-82e7189e57a8">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails rosewall: development" uuid="a8f15588-f133-4e7a-bc9a-bb0f0ee39ff4">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails rosewall: production" uuid="d3923302-821f-4f4f-b249-f1e0646d7214">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <first-sync>true</first-sync>
+      <user-name>rosewall</user-name>
+    </data-source>
+  </component>
+</project>
