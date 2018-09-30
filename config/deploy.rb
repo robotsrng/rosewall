@@ -4,7 +4,6 @@ lock "~> 3.11.0"
 set :application, "rosewall"
 set :repo_url, "git@github.com:robotsrng/rosewall.git"
 set :user, "rosewall"
-server '178.128.235.134', port: 3000, roles: [:web, :app, :db], primary: true
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
