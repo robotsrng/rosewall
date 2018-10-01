@@ -14,11 +14,14 @@ set :puma_workers,    0
 # set :stage,           :production
 # set :deploy_via,      :remote_cache
 # set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
+
 set :puma_bind,       "unix://home/rosewall/rosewall/tmp/sockets/#{fetch(:application)}-puma.sock"
 set :puma_state,      "/home/rosewall/rosewall/tmp/pids/puma.state"
 set :puma_pid,        "/home/rosewall/rosewall/tmp/pids/puma.pid"
 set :puma_access_log, "/home/rosewall/rosewall/current/log/puma.error.log"
 set :puma_error_log,  "/home/rosewall/rosewall/current/log/puma.access.log"
+set :deploy_to, "/home/rosewall/rosewall"
+
 # set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
 # set :puma_preload_app, true
 # set :puma_worker_timeout, nil
