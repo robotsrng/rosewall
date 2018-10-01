@@ -1,0 +1,2 @@
+class GravelController < ApplicationController
+end

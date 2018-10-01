@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  get 'fuck/index'
-  get 'fuck/about'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   #
-  root "fuck#index"
+  root "gravel#index"
 end
