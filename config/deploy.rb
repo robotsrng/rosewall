@@ -15,9 +15,9 @@ set :puma_workers,    0
 # set :deploy_via,      :remote_cache
 # set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
 
-set :puma_bind,       "unix://home/rosewall/rosewall/tmp/sockets/#{fetch(:application)}-puma.sock"
-set :puma_state,      "/home/rosewall/rosewall/tmp/pids/puma.state"
-set :puma_pid,        "/home/rosewall/rosewall/tmp/pids/puma.pid"
+set :puma_bind,       "unix://home/rosewall/rosewall/current/tmp/sockets/rosewall-puma.sock"
+set :puma_state,      "/home/rosewall/rosewall/current/tmp/pids/puma.state"
+set :puma_pid,        "/home/rosewall/rosewall/current/tmp/pids/puma.pid"
 set :puma_access_log, "/home/rosewall/rosewall/current/log/puma.error.log"
 set :puma_error_log,  "/home/rosewall/rosewall/current/log/puma.access.log"
 set :deploy_to, "/home/rosewall/rosewall"
