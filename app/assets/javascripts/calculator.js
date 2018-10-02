@@ -1,23 +1,23 @@
 $(document).on('turbolinks:load', function () {
 
     $(document).on('click', '#square-calc-button', function () {
-        let h = $('#calc-height').val();
-        let w = $('#calc-width').val();
-        let d = $('#calc-depth').val();
-        alert('You require : ' + ( (h * w * d) / 27 ) + 'cubic yards of material.');
+        let hght = $('#calc-height').val();
+        let wdth = $('#calc-width').val();
+        let dpth = $('#calc-depth').val();
+        alert('You require : ' + ( (hght * wdth * dpth) / 27 ) + 'cubic yards of material.');
 
     });
 
     $(document).on('click', '#cone-calc-button', function () {
-        let r = $('#calc-radius').val();
-        let d = $('#calc-depth').val();
-        alert('You require : ' + (((((r*r) * d) * Math.PI) / 3) / 27 ) + 'cubic yards of material.');
+        let rds = $('#calc-radius').val();
+        let dpth = $('#calc-depth').val();
+        alert('You require : ' + (((((rds*rds) * dpth) * Math.PI) / 3) / 27 ) + 'cubic yards of material.');
     });
 
     $(document).on('click', '#cylinder-calc-button', function () {
-        let r = $('#calc-radius').val();
-        let d = $('#calc-depth').val();
-        alert('You require : ' + ((((r*r) * d) * Math.PI) / 27).toString() + ' cubic yards of material.' );
+        let rds = $('#calc-radius').val();
+        let dpth = $('#calc-depth').val();
+        alert('You require : ' + ((((rds*rds) * dpth) * Math.PI) / 27).toString() + ' cubic yards of material.' );
     });
 
     $('#calculator-selector').on('change', function () {
