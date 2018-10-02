@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e1b499-a65e-4fc9-9fed-c724446367af" name="Default Changelist" comment="adjust puma">
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,15 +31,15 @@
           <entry key="Gemfile" value="7" />
           <entry key="conf" value="2" />
           <entry key="css" value="7" />
-          <entry key="erb" value="26" />
+          <entry key="erb" value="27" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="6" />
           <entry key="js" value="4" />
           <entry key="key" value="2" />
           <entry key="lock" value="1" />
           <entry key="log" value="2" />
-          <entry key="rb" value="46" />
-          <entry key="ru" value="1" />
+          <entry key="rb" value="47" />
+          <entry key="ru" value="2" />
           <entry key="scss" value="2" />
           <entry key="sql" value="1" />
           <entry key="yml" value="2" />
@@ -51,8 +51,8 @@
           <entry key="HTML" value="6" />
           <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="RHTML" value="26" />
-          <entry key="Ruby" value="57" />
+          <entry key="RHTML" value="27" />
+          <entry key="Ruby" value="59" />
           <entry key="SCSS" value="2" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="2" />
@@ -64,7 +64,7 @@
           <entry key="Gemfile" value="58" />
           <entry key="conf" value="57" />
           <entry key="css" value="27" />
-          <entry key="erb" value="3496" />
+          <entry key="erb" value="3502" />
           <entry key="html" value="30" />
           <entry key="js" value="933" />
           <entry key="rb" value="835" />
@@ -78,7 +78,7 @@
           <entry key="HTML" value="30" />
           <entry key="JavaScript" value="933" />
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="RHTML" value="3496" />
+          <entry key="RHTML" value="3502" />
           <entry key="Ruby" value="898" />
           <entry key="SCSS" value="1028" />
         </counts>
@@ -90,26 +90,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2354">
-              <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/calculator.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+            <state relative-caret-position="180">
+              <caret line="76" column="9" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/calculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+            <state relative-caret-position="1276">
+              <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -132,8 +132,9 @@
       <find>tag (&quot;</find>
       <find>card-image</find>
       <find>class=&quot;card</find>
-      <find>c</find>
       <find>&lt;/a&gt;</find>
+      <find>c</find>
+      <find>ima</find>
     </findStrings>
     <replaceStrings>
       <replace>tag(&quot;</replace>
@@ -169,7 +170,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/modern-business.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/background.css" />
-        <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/index.html" />
         <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
@@ -183,6 +183,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/calculator.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/calculator.js" />
+        <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
       </list>
     </option>
   </component>
@@ -232,6 +233,13 @@
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
@@ -289,62 +297,18 @@
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="initializers" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-modern-business-gh-pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-modern-business-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-modern-business-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-modern-business-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-modern-business-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-modern-business-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-modern-business-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -508,7 +472,7 @@
       <workItem from="1538334879725" duration="716000" />
       <workItem from="1538335617751" duration="337000" />
       <workItem from="1538335955906" duration="3071000" />
-      <workItem from="1538339347734" duration="61096000" />
+      <workItem from="1538339347734" duration="61862000" />
     </task>
     <task id="LOCAL-00001" summary="adjust puma">
       <created>1538409449838</created>
@@ -521,13 +485,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75124000" />
+    <option name="totallyTimeSpent" value="75890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="37" width="1920" height="1043" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16630785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16630785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -540,7 +504,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.4047619" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.4047619" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.4047619" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -587,7 +551,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="adjust puma" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/puma-3.12.0/lib/puma/binder.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -664,9 +627,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3923302-821f-4f4f-b249-f1e0646d7214/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
@@ -833,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="46" column="90" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -882,10 +835,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss">
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2354">
-          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+        <state relative-caret-position="1276">
+          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -896,10 +855,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/calculator.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        <state relative-caret-position="180">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
         </state>
       </provider>
     </entry>
