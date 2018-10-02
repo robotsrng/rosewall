@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rosewall</title>
+    <title>Rosewall Pit</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <h1>HOLY MOTHER FUCKER ITS WORKING!!</h1>
-    <p>This is two</p>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
   </head>
 
   <body>
-<h1>HOLY MOTHER FUCKER ITS WORKING!!</h1>
-<p>This is two</p>
+  <%= render 'layouts/navigation' %>
     <%= yield %>
+
+  <hr>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Created by ShatteredDesign 2018</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
   </body>
 </html>

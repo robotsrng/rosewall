@@ -1,0 +1,15 @@
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+
+    <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand align-right" href="/"><%= image_tag("logo.png", :alt => "Rosewell Logo", class: "logo nav-logo") %></a>
+    <div class="collapse navbar-collapse dropdown-menu-right" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto dropdown-menu-right">
+        <%= render 'layouts/navigation_links' %>
+      </ul>
+    </div>
+  </div>
+</nav>

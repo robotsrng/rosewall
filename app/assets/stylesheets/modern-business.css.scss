@@ -1,0 +1,110 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 150px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.page-heading {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 30px 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+  background-color: #b84d45;
+  font-size: 1.25rem;
+}
+
+.nav-logo {
+  max-width: 150px;
+  height: auto;
+  box-shadow: 6px 3px #888888;
+  margin-right: 20px;
+  border: #888888 solid 1px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.logo {
+  border-radius: .5em;
+}
+.carousel-inner{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 1110px;
+}
+.carousel-item {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-size: cover !important;
+  max-width: 1110px;
+  border: 1px solid rgba(0, 0, 0, 0.125)
+}
+
+.carousel-caption-bg {
+  background: rgb(205, 92, 92); /* Fallback for older browsers without RGBA-support */
+  background: rgba(205, 92, 92, 0.8);
+  border-radius: .5em;
+}
+
+.card-image {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+li.breadcrumb-heading{
+  background-color: rgb(205, 92, 92);
+  color: #1d2124 !important;
+}
+ol.breadcrumb-heading{
+  background-color: rgb(205, 92, 92);
+  color: #1d2124 !important;
+}
+
+
+.product-header{
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row{
+  margin-bottom: 20px;
+}
+
+.services-text{
+  font-size: 1.2em;
+}
+
+.hidden{
+  display: none;
+}
+

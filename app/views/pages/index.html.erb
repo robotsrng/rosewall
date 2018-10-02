@@ -1,0 +1,80 @@
+<p id="notice"><%= notice %></p>
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background: url(<%= asset_path 'white_truck.jpg' %>)">
+        <div class="carousel-caption d-none d-md-block carousel-caption-bg">
+          <h3>Hauling and Delivery</h3>
+          <p>A variety of options to get the product to where you need it.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background: url(<%= asset_path 'screening.jpg' %>)">
+        <div class="carousel-caption d-none d-md-block carousel-caption-bg">
+          <h3>Hauling and Delivery</h3>
+          <p>A variety of options to get the product to where you need it.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background: url(<%= asset_path 'back-fill.jpg' %>)">
+        <div class="carousel-caption d-none d-md-block carousel-caption-bg">
+          <h3>Hauling and Delivery</h3>
+          <p>A variety of options to get the product to where you need it.</p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <%= image_tag("blue-sky-square.jpg", alt: "Truck Loading", class: "card-image") %>
+        <div class="card-body">
+          <h4 class="card-title">
+            Comercial Road Crush
+          </h4>
+          <p class="card-text">We can provide any large scale road construction needs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <%= image_tag("blue-truck-square.jpg", alt: "Blue Truck", class: "card-image") %>
+        <div class="card-body">
+          <h4 class="card-title">
+            Small Projects
+          </h4>
+          <p class="card-text">We can provide for those jobs around your house.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <%= image_tag("blue-truck-square.jpg", alt: "Truck Loading", class: "card-image") %>
+        <div class="card-body">
+          <h4 class="card-title">
+            Calculator
+          </h4>
+          <p class="card-text">Click here to calculate how much product you might need.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.row -->
