@@ -1,9 +1,9 @@
 $(document).on('turbolinks:load', function () {
 
     $(document).on('click', '#square-calc-button', function () {
-        let hght = $('#calc-height').val();
-        let wdth = $('#calc-width').val();
-        let dpth = $('#calc-depth').val();
+        var hght = $('#calc-height').val();
+        var wdth = $('#calc-width').val();
+        var dpth = $('#calc-depth').val();
         alert('You require : ' + ( (hght * wdth * dpth) / 27 ) + 'cubic yards of material.');
 
     });
