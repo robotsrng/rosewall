@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="25e1b499-a65e-4fc9-9fed-c724446367af" name="Default Changelist" comment="adjust puma">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/nginx.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +33,10 @@
           <entry key="Capfile" value="3" />
           <entry key="Gemfile" value="9" />
           <entry key="bundle" value="1" />
-          <entry key="conf" value="5" />
+          <entry key="conf" value="6" />
           <entry key="css" value="7" />
           <entry key="enc" value="1" />
-          <entry key="erb" value="28" />
+          <entry key="erb" value="29" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="6" />
           <entry key="js" value="5" />
@@ -57,8 +59,8 @@
           <entry key="CSS" value="7" />
           <entry key="HTML" value="6" />
           <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="RHTML" value="28" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="RHTML" value="29" />
           <entry key="Ruby" value="87" />
           <entry key="SCSS" value="3" />
           <entry key="Scratch" value="1" />
@@ -69,9 +71,9 @@
         <counts>
           <entry key="Capfile" value="5" />
           <entry key="Gemfile" value="58" />
-          <entry key="conf" value="107" />
+          <entry key="conf" value="135" />
           <entry key="css" value="27" />
-          <entry key="erb" value="3502" />
+          <entry key="erb" value="3503" />
           <entry key="html" value="30" />
           <entry key="js" value="949" />
           <entry key="rb" value="840" />
@@ -84,8 +86,8 @@
           <entry key="CSS" value="27" />
           <entry key="HTML" value="30" />
           <entry key="JavaScript" value="949" />
-          <entry key="PLAIN_TEXT" value="119" />
-          <entry key="RHTML" value="3502" />
+          <entry key="PLAIN_TEXT" value="147" />
+          <entry key="RHTML" value="3503" />
           <entry key="Ruby" value="903" />
           <entry key="SCSS" value="1047" />
         </counts>
@@ -95,10 +97,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            <state relative-caret-position="330">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,11 +177,11 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/calculator.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/calculator.js" />
-        <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/nginx.conf" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/nginx.conf" />
+        <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
       </list>
     </option>
   </component>
@@ -219,6 +225,19 @@
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
@@ -420,7 +439,7 @@
       <workItem from="1538334879725" duration="716000" />
       <workItem from="1538335617751" duration="337000" />
       <workItem from="1538335955906" duration="3071000" />
-      <workItem from="1538339347734" duration="67865000" />
+      <workItem from="1538339347734" duration="70971000" />
     </task>
     <task id="LOCAL-00001" summary="adjust puma">
       <created>1538409449838</created>
@@ -433,13 +452,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81893000" />
+    <option name="totallyTimeSpent" value="84999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="37" width="1920" height="1043" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16630785" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16630785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,7 +471,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.4047619" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.4047619" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.4047619" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -684,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -749,13 +761,6 @@
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -797,10 +802,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="550">
           <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
