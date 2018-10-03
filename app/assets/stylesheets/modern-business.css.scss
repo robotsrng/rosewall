@@ -64,10 +64,15 @@ body {
   margin-right: auto;
   text-align: center;
   background-size: cover !important;
-  max-width: 1110px;
-  border: 1px solid rgba(0, 0, 0, 0.125)
+  //max-width: 1110px;
+  max-width: 100%;
+  width: auto\9; /* ie8 */
 }
-
+.carousel-caption-title{
+  top: 20px;
+  font-size: 2em;
+  text-shadow: 2px 2px #000000;
+}
 .carousel-caption-bg {
   background: rgb(205, 92, 92); /* Fallback for older browsers without RGBA-support */
   background: rgba(205, 92, 92, 0.8);
@@ -90,7 +95,6 @@ ol.breadcrumb-heading{
 
 
 .product-header{
-  max-width: 750px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -104,7 +108,31 @@ ol.breadcrumb-heading{
   font-size: 1.2em;
 }
 
+.logo-initial-cap::first-letter{
+  font-family: "MonotypeCorsiva";
+  color: rgb(205, 92, 92);
+  font-size: 2em;
+}
+
 .hidden{
   display: none;
 }
 
+.breadcrumb{
+  margin-top: 20px;
+}
+
+.small-font{
+  font-size: .5em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+@font-face {
+  font-family: 'MonotypeCorsiva';
+  src: font_url('MonotypeCorsiva.ttf');
+}

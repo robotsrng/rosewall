@@ -1,31 +1,40 @@
 <p id="notice"><%= notice %></p>
 <header>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carouse">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background: url(<%= asset_path 'white_truck.jpg' %>)">
+      <div class="carousel-item active" style="background: url(<%= asset_path 'back-fill.jpg' %>)">
+        <div class="carousel-caption d-none d-md-block carousel-caption-title">
+          <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
+          <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
+        </div>
+        <div class="carousel-caption d-none d-md-block carousel-caption-bg">
+          <h3>Wide Selection</h3>
+          <p>The right product, right to your door.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background: url(<%= asset_path 'white_truck' %>)">
+        <div class="carousel-caption d-none d-md-block carousel-caption-title">
+          <h1>Rosewall Gravel Pit</h1>
+          <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
+        </div>
         <div class="carousel-caption d-none d-md-block carousel-caption-bg">
           <h3>Hauling and Delivery</h3>
           <p>A variety of options to get the product to where you need it.</p>
         </div>
       </div>
-      <!-- Slide Two - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background: url(<%= asset_path 'screening.jpg' %>)">
-        <div class="carousel-caption d-none d-md-block carousel-caption-bg">
-          <h3>Hauling and Delivery</h3>
-          <p>A variety of options to get the product to where you need it.</p>
+        <div class="carousel-caption d-none d-md-block carousel-caption-title">
+          <h1>Rosewall Gravel Pit</h1>
+          <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
         </div>
-      </div>
-      <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background: url(<%= asset_path 'back-fill.jpg' %>)">
         <div class="carousel-caption d-none d-md-block carousel-caption-bg">
-          <h3>Hauling and Delivery</h3>
-          <p>A variety of options to get the product to where you need it.</p>
+          <h3>Large and Small</h3>
+          <p>We can provide materials for large scale operations to the backyard project.
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -39,11 +48,12 @@
     </div>
   </div>
 </header>
-<div class="container">
+<div class="container ">
   <br>
   <ol class="breadcrumb breadcrumb-heading">
-    <li class="breadcrumb-item breadcrumb-heading active">Our site is currently under construction, please bear with us
-      as we work to improve your experience.
+    <li class="breadcrumb-item breadcrumb-heading active text-white">Serving the Lighthouse County and surrounding areas, we are
+      the local gravel pit you can trust. Located just off the Island Hiway, we are able to provide for any project,
+      large or small, and can provide delivery.
     </li>
   </ol>
 </div>
@@ -52,10 +62,10 @@
   <div class="row">
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <%= image_tag("blue-sky-square.jpg", alt: "Truck Loading", class: "card-image") %>
+        <%= image_tag("blue-sky-square.jpg", alt: "Gravel site conveyor belt adding to gravel pile", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
-            Comercial Road Crush
+            Commercial Road Crush
           </h4>
           <p class="card-text">We can provide any large scale road construction needs.</p>
         </div>
@@ -63,7 +73,7 @@
     </div>
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <%= image_tag("blue-truck-square.jpg", alt: "Blue Truck", class: "card-image") %>
+        <%= image_tag("blue-truck-square.jpg", alt: "Truck Loading Gravel At A Road Construction Site", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
             Small Projects
@@ -72,13 +82,15 @@
         </div>
       </div>
     </div>
+
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <%= image_tag("blue-truck-square.jpg", alt: "Truck Loading", class: "card-image") %>
+        <%= image_tag("backyard.jpg", alt: "Truck unloading gravel at a home construction site", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
-            Calculator
+            <%= link_to "Calculator", "/calculator" %>
           </h4>
+
           <p class="card-text">Click here to calculate how much product you might need.</p>
         </div>
       </div>

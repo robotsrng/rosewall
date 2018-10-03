@@ -5,16 +5,17 @@
   <!-- Content Row -->
   <div class="row">
     <!-- Map Column -->
-    <!--    <div class="col-lg-8 mb-4">-->
+        <div class="col-lg-8 mb-4">
     <!--      <!-- Embedded Google Map -->
-    <!--      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(49.4638462,-124.79792270000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(49.4638462,-124.79792270000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>8560 Island Hiway S, Fanny Bay, British Columbia, Canada<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>-->
-    <!--    </div>-->
+        <%= link_to image_tag("map-trim.png", alt: 'Google Map', class: 'contact-map'), 'https://www.google.ca/maps/place/8560+Island+Hwy+S,+Fanny+Bay,+BC+V0R+1W0/@49.4638479,-124.8329418,13z/data=!4m5!3m4!1s0x548867a15fe7823d:0x5a735182bb6c0fbd!8m2!3d49.4638462!4d-124.7979227' %>
+        </div>
     <!-- Contact Details Column -->
     <div class="col-lg-4 mb-4">
       <h3>Contact Details</h3>
       <p>
         8560 Island Hwy S.
         <br>Fanny Bay
+        <br>V9K 2E1
         <br>
       </p>
       <p>
