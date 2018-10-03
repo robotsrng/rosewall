@@ -98,9 +98,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+            <state relative-caret-position="366">
+              <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
               <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -495,7 +496,7 @@
       <workItem from="1538335955906" duration="3071000" />
       <workItem from="1538339347734" duration="71380000" />
       <workItem from="1538523537010" duration="8586000" />
-      <workItem from="1538597696868" duration="10578000" />
+      <workItem from="1538597696868" duration="10833000" />
     </task>
     <task id="LOCAL-00001" summary="adjust puma">
       <created>1538409449838</created>
@@ -508,10 +509,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104572000" />
+    <option name="totallyTimeSpent" value="104827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="37" width="1920" height="1043" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19537137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -854,9 +856,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+        <state relative-caret-position="366">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
           </folding>
         </state>
