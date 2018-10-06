@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 <header>
+  <div class="bg-red">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carouse">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -7,36 +8,38 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active" style="background: url(<%= asset_path 'back-fill.jpg' %>)">
-        <div class="carousel-caption d-none d-md-block carousel-caption-title">
+      <div class="carousel-item  active" style="background: url(<%= asset_path 'rosewall-operation.jpg' %>)">
+        <div class="carousel-caption carousel-caption-title">
           <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
           <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
         </div>
-        <div class="carousel-caption d-none d-md-block carousel-caption-bg">
-          <h3>Wide Selection</h3>
-          <p>The right product, right to your door.</p>
+        <div class="carousel-caption  carousel-caption-bg">
+          <h3><%= link_to "Large and Small", "/contact", class: 'no-link' %></h3>
+          <p>We can provide materials for large scale operations down to the backyard project.
+        </div>
+      </div>
+      <div class="carousel-item" style="background: url(<%= asset_path 'back-fill.jpg' %>)">
+        <div class="carousel-caption  carousel-caption-title">
+<!--          d-none d-md-block-->
+          <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
+          <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
+        </div>
+        <div class="carousel-caption carousel-caption-bg">
+          <h3><%= link_to "Wide Selection of Materials", "/product", class: 'no-link' %></h3>
+          <p>We can provide the right material to suit your needs.</p>
         </div>
       </div>
       <div class="carousel-item" style="background: url(<%= asset_path 'white_truck.jpg' %>)">
-        <div class="carousel-caption d-none d-md-block carousel-caption-title">
+        <div class="carousel-caption carousel-caption-title">
           <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
           <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
         </div>
-        <div class="carousel-caption d-none d-md-block carousel-caption-bg">
-          <h3>Hauling and Delivery</h3>
+        <div class="carousel-caption carousel-caption-bg">
+          <h3><%= link_to "Hauling and Delivery", "/contact", class: 'no-link' %></h3>
           <p>A variety of options to get the product to where you need it.</p>
         </div>
       </div>
-      <div class="carousel-item" style="background: url(<%= asset_path 'screening.jpg' %>)">
-        <div class="carousel-caption d-none d-md-block carousel-caption-title">
-          <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
-          <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
-        </div>
-        <div class="carousel-caption d-none d-md-block carousel-caption-bg">
-          <h3>Large and Small</h3>
-          <p>We can provide materials for large scale operations to the backyard project.
-        </div>
-      </div>
+
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -47,15 +50,17 @@
       </a>
     </div>
   </div>
+  </div>
 </header>
+<div class="wide-container bg-dark">
 <div class="container ">
-  <br>
-  <ol class="breadcrumb breadcrumb-heading">
-    <li class="breadcrumb-item breadcrumb-heading active text-white">Serving the Lighthouse County and surrounding areas, we are
-      the local gravel pit you can trust. Located just off the Island Hiway, we are able to provide for any project,
-      large or small, and can provide delivery.
+  <ol class="wide-container-content ">
+    <li class="breadcrumb-item active text-white">Serving the Lighthouse County and surrounding areas, we are
+      the local gravel pit you can trust. Located just off the Island Highway, we are able to provide for any project,
+      large or small, and are able to provide delivery.
     </li>
   </ol>
+</div>
 </div>
 <div class="container">
   <br>
@@ -65,9 +70,9 @@
         <%= image_tag("blue-sky-square.jpg", alt: "Gravel site conveyor belt adding to gravel pile", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
-            Commercial Road Crush
+            <%= link_to "Large Operations", '/contact', class: 'no-link' %>
           </h4>
-          <p class="card-text">We can provide any large scale road construction needs.</p>
+          <p class="card-text">We can provide for any large scale construction or contract needs.</p>
         </div>
       </div>
     </div>
@@ -76,9 +81,9 @@
         <%= image_tag("blue-truck-square.jpg", alt: "Truck Loading Gravel At A Road Construction Site", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
-            Small Projects
+            <%= link_to "Small Projects", '/contact', class: 'no-link' %>
           </h4>
-          <p class="card-text">We can provide for those jobs around your house.</p>
+          <p class="card-text">The simple backyard fix or a new driveway; Rosewall Gravel Pit can fill your order.</p>
         </div>
       </div>
     </div>
@@ -88,7 +93,7 @@
         <%= image_tag("backyard.jpg", alt: "Truck unloading gravel at a home construction site", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
-            <%= link_to "Calculator", "/calculator" %>
+            <%= link_to "Calculator", "/calculator", class: 'no-link' %>
           </h4>
 
           <p class="card-text">Click here to calculate how much product you might need.</p>
