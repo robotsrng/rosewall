@@ -8,11 +8,7 @@ body {
   padding-top: 54px;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
+
 
 .carousel-item {
   height: 65vh;
@@ -39,7 +35,7 @@ body {
 }
 
 .nav-logo {
-  max-width: 150px;
+  max-width: 115px;
   height: auto;
   box-shadow: 6px 3px #888888;
   margin-right: 20px;
@@ -116,10 +112,11 @@ body {
   color: inherit;
 }
 
-.no-link:hover{
+.no-link:hover {
   text-decoration: underline;
   color: inherit;
 }
+
 @media (max-width: 850px) {
   .carousel-caption-bg {
     display: none;
@@ -156,12 +153,27 @@ ol.breadcrumb-heading {
   margin-right: auto;
 }
 
-.row {
-  margin-bottom: 20px;
+.product-header-img {
+  margin-top: auto;
+  margin-bottom: auto;
+
 }
 
 .services-text {
-  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: .7rem;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 20px;
 }
 
 .logo-initial-cap::first-letter {
@@ -171,13 +183,17 @@ ol.breadcrumb-heading {
 }
 
 .bg-red {
-  background-color: rgb(205, 92, 92);
+  background-image: linear-gradient( #a3363d, #d45f5f);
+  //background-color: rgb(205, 92, 92);
 }
 
 .modal-footer-red {
   background-color: rgb(205, 92, 92);
 }
 
+footer{
+  background-image: image_url("footer-banner.jpg");
+}
 .hidden {
   display: none;
 }
@@ -190,9 +206,9 @@ ol.breadcrumb-heading {
   .calculator-container {
     padding: 25px;
     width: 50%;
-    border-radius: 2em;
-    border: 5px solid rgb(205, 92, 92);
     text-align: center;
+    border-radius: .5rem;
+
   }
 }
 
@@ -200,16 +216,19 @@ ol.breadcrumb-heading {
   .calculator-container {
     padding: 25px;
     width: 100%;
-    border-radius: 2em;
-    border: 5px solid rgb(205, 92, 92);
     text-align: center;
   }
+}
+
+.calculator-header{
+  padding-top: 5px;
 }
 
 .navbar {
   //background: linear-gradient(to right, rgb(205, 92, 92) , #ffeef2);
   font-size: 1.25rem;
   font-weight: bold;
+  max-height: 54px;
 }
 
 .small-font {
@@ -228,3 +247,41 @@ img {
   src: font_url('MonotypeCorsiva.ttf');
 }
 
+.icon-img {
+  max-height: 1.2rem;
+  vertical-align: baseline;
+}
+
+.icon-img-link {
+  max-height: 1.2rem;
+  opacity: .5;
+  vertical-align: baseline;
+}
+.icon-img-link:hover {
+  max-height: 1.2rem;
+  vertical-align: baseline;
+}
+
+.icon-img-hover{
+  opacity: .7;
+}
+
+.contact-map{
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: rgb(205, 92, 92);
+}
+
+.text-bold{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.bg-dark-fade{
+  background-image: linear-gradient(#343a40, #50575d);
+}
+
+.body-header{
+  display: block;
+  margin-top: 0px;
+}

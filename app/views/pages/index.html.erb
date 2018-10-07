@@ -1,14 +1,8 @@
-<p id="notice"><%= notice %></p>
-<header>
-  <div class="bg-red">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carouse">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
+<div class="bg-red body-header">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item  active" style="background: url(<%= asset_path 'rosewall-operation.jpg' %>)">
+      <div class="carousel-item  active" style="background: url(<%= asset_path 'rosewall-piles.jpg' %>)">
         <div class="carousel-caption carousel-caption-title">
           <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
           <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
@@ -20,7 +14,7 @@
       </div>
       <div class="carousel-item" style="background: url(<%= asset_path 'back-fill.jpg' %>)">
         <div class="carousel-caption  carousel-caption-title">
-<!--          d-none d-md-block-->
+          <!--          d-none d-md-block-->
           <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
           <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
         </div>
@@ -29,7 +23,7 @@
           <p>We can provide the right material to suit your needs.</p>
         </div>
       </div>
-      <div class="carousel-item" style="background: url(<%= asset_path 'white_truck.jpg' %>)">
+      <div class="carousel-item" style="background: url(<%= asset_path 'rosewall-operation.jpg' %>)">
         <div class="carousel-caption carousel-caption-title">
           <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
           <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
@@ -49,25 +43,29 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
   </div>
-  </div>
-</header>
-<div class="wide-container bg-dark">
-<div class="container ">
-  <ol class="wide-container-content ">
-    <li class="breadcrumb-item active text-white">Serving the Lighthouse County and surrounding areas, we are
-      the local gravel pit you can trust. Located just off the Island Highway, we are able to provide for any project,
-      large or small, and are able to provide delivery.
-    </li>
-  </ol>
 </div>
+<div class="wide-container bg-dark-fade">
+  <div class="container ">
+    <ol class="wide-container-content ">
+      <li class="breadcrumb-item active text-white">Serving the Lighthouse County and surrounding areas, we are
+        the local gravel pit you can trust. Located just off the Island Highway, we are able to provide for any project,
+        large or small, and are able to provide delivery.
+      </li>
+    </ol>
+  </div>
 </div>
 <div class="container">
   <br>
   <div class="row">
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <%= image_tag("blue-sky-square.jpg", alt: "Gravel site conveyor belt adding to gravel pile", class: "card-image") %>
+        <%= image_tag("large-operation.jpg", alt: "Rosewall Pit - Qualicum Bay - Gravel site conveyor belt adding to gravel pile", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
             <%= link_to "Large Operations", '/contact', class: 'no-link' %>
@@ -78,7 +76,7 @@
     </div>
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <%= image_tag("blue-truck-square.jpg", alt: "Truck Loading Gravel At A Road Construction Site", class: "card-image") %>
+        <%= image_tag("black-truck.jpg", alt: "Rosewall Pit - Qualicum Beach - Truck Loading Gravel At A Road Construction Site", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
             <%= link_to "Small Projects", '/contact', class: 'no-link' %>
@@ -90,7 +88,7 @@
 
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <%= image_tag("backyard.jpg", alt: "Truck unloading gravel at a home construction site", class: "card-image") %>
+        <%= image_tag("backyard.jpg", alt: "Rosewall Pit - Vancouver Island - Truck unloading gravel at a home construction site", class: "card-image") %>
         <div class="card-body">
           <h4 class="card-title">
             <%= link_to "Calculator", "/calculator", class: 'no-link' %>
