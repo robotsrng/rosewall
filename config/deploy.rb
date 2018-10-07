@@ -82,6 +82,7 @@ namespace :deploy do
   after  :finishing,    :compile_assets
   after  :finishing,    :cleanup
   after  :finishing,    :restart
+
 end
 
 # ps aux | grep puma    # Get puma pid

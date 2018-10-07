@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e1b499-a65e-4fc9-9fed-c724446367af" name="Default Changelist" comment="adjust puma">
-      <change beforePath="$PROJECT_DIR$/.idea/rosewall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rosewall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Capfile" beforeDir="false" afterPath="$PROJECT_DIR$/Capfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/contacts_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/contacts_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/blog-home-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/blog-home-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/blog-post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/css/modern-business.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/full-width.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/js/contact_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/js/jqBootstrapValidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/mail/contact_me.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/portfolio-1-col.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/portfolio-2-col.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/portfolio-3-col.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/portfolio-4-col.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/portfolio-item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deploy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/deploy.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +47,7 @@
           <entry key="log" value="2" />
           <entry key="rails" value="1" />
           <entry key="rake" value="1" />
-          <entry key="rb" value="85" />
+          <entry key="rb" value="86" />
           <entry key="ru" value="4" />
           <entry key="scss" value="14" />
           <entry key="setup" value="1" />
@@ -119,7 +64,7 @@
           <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="RHTML" value="84" />
-          <entry key="Ruby" value="108" />
+          <entry key="Ruby" value="109" />
           <entry key="SCSS" value="14" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="2" />
@@ -134,7 +79,7 @@
           <entry key="erb" value="8217" />
           <entry key="html" value="30" />
           <entry key="js" value="1998" />
-          <entry key="rb" value="1438" />
+          <entry key="rb" value="1500" />
           <entry key="scss" value="3133" />
           <entry key="txt" value="12" />
         </counts>
@@ -146,7 +91,7 @@
           <entry key="JavaScript" value="1990" />
           <entry key="PLAIN_TEXT" value="147" />
           <entry key="RHTML" value="8217" />
-          <entry key="Ruby" value="1503" />
+          <entry key="Ruby" value="1565" />
           <entry key="SCSS" value="3133" />
         </counts>
       </usages-collector>
@@ -179,11 +124,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/contacts_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+            <state relative-caret-position="154">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -298,10 +252,10 @@
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/app/mailers/contacts_mailer.rb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -322,7 +276,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="37" />
     <option name="width" value="960" />
     <option name="height" value="1043" />
@@ -372,7 +326,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="ro&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;rou&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;rout&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;pages&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;con&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;page&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;pag&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;ap&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/views/layouts/application.html.erb&#10;app&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/assets/javascripts/application.js&#10;gem&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/Gemfile&#10;gr&#9;null&#9;null&#10;rosewall&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="de&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/deploy.rb&#10;ro&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;rou&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;rout&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;pages&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;con&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;page&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;pag&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;ap&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/views/layouts/application.html.erb&#10;app&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/assets/javascripts/application.js&#10;gem&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/Gemfile&#10;gr&#9;null&#9;null&#10;rosewall&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../luxe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -532,7 +486,7 @@
       <workItem from="1538797118420" duration="12234000" />
       <workItem from="1538849063558" duration="3652000" />
       <workItem from="1538868919959" duration="7193000" />
-      <workItem from="1538891789282" duration="6345000" />
+      <workItem from="1538891789282" duration="8733000" />
     </task>
     <task id="LOCAL-00001" summary="adjust puma">
       <created>1538409449838</created>
@@ -545,13 +499,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150102000" />
+    <option name="totallyTimeSpent" value="152490000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="37" width="960" height="1043" extended-state="4" />
+    <frame x="0" y="37" width="1920" height="1043" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21603563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104413345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -564,7 +518,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.707483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.32312927" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.4047619" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -861,17 +815,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/app/mailers/contacts_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="154">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/contacts_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="176">
+          <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
         </state>
       </provider>
     </entry>
