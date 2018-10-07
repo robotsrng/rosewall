@@ -11,27 +11,27 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="field form-group col-md-6">
     <%= form.label :name %>
-    <%= form.text_field :name %>
+    <%= form.text_field :name, { class: 'form-control', placeholder: "Your Name" } %>
   </div>
 
-  <div class="field">
+  <div class="field form-group col-md-6">
     <%= form.label :phone %>
-    <%= form.text_field :phone %>
+    <%= form.text_field :phone, { class: 'form-control', placeholder: "Enter Phone" } %>
   </div>
 
-  <div class="field">
+  <div class="field form-group col-md-6">
     <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= form.text_field :email, { class: 'form-control', aria: {describedby: "emailHelp"}, placeholder: "Enter email" } %>
   </div>
 
-  <div class="field">
+  <div class="field form-group col-md-12">
     <%= form.label :message %>
-    <%= form.text_field :message %>
+    <%= form.text_area :message, { class: 'form-control', placeholder: '', rows: 5} %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="actions form-group col-md-6">
+    <%= form.submit "Send Message" %>
   </div>
 <% end %>

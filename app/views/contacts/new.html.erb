@@ -4,13 +4,12 @@
   <!-- Content Row -->
   <div class="row ">
     <!-- Map Column -->
-    <div class="col-lg-8 mb-4 text-center">
-      <!--      <!-- Embedded Google Map -->
-      <%= link_to image_tag("map-trim.png", alt: 'Google Map', class: 'contact-map'), 'https://www.google.ca/maps/place/8560+Island+Hwy+S,+Fanny+Bay,+BC+V0R+1W0/@49.4638479,-124.8329418,13z/data=!4m5!3m4!1s0x548867a15fe7823d:0x5a735182bb6c0fbd!8m2!3d49.4638462!4d-124.7979227' %>
+    <div class="col-lg-6 mb-4 contact-form-col">
+      <%= render 'form', contact: @contact %>
     </div>
     <!-- Contact Details Column -->
-    <div class="col-lg-4 mb-4">
-      <h3>Sales and Operations</h3>
+    <div class="col-lg-6 mb-4 contact-form-col">
+      <h3 class="text-underline">Sales and Operations</h3>
       <p>
         8560 Island Hwy S.
         <br>Fanny Bay
@@ -20,27 +19,20 @@
       <p>
         Phone Terry at: (250) 228-2894
       </p>
-      <!--      <p>-->
-      <!--        <abbr title="Email">E</abbr>:-->
-      <!--        <a href="mailto:name@example.com">name@example.com-->
-      <!--        </a>-->
-      <!--      </p>-->
-      <!--      <p>-->
-      <!--        <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM-->
-      <!--      </p>-->
     </div>
   </div>
-
-  <%= render 'form', contact: @contact %>
-
-
+</div>
+<div class="container text-center">
+  <%= link_to image_tag("map-trim.png", alt: 'Google Map', class: 'contact-map'), 'https://www.google.ca/maps/place/8560+Island+Hwy+S,+Fanny+Bay,+BC+V0R+1W0/@49.4638479,-124.8329418,13z/data=!4m5!3m4!1s0x548867a15fe7823d:0x5a735182bb6c0fbd!8m2!3d49.4638462!4d-124.7979227' %>
+</div>
+<div class="container">
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
       <a href="/">Home</a>
     </li>
     <li class="breadcrumb-item active">Contact</li>
   </ol>
-
 </div>
+
 <!-- /.container -->
 

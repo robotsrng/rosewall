@@ -68,18 +68,36 @@ body {
 ; /* ie8 */
 }
 
-@media(min-width: 500px) {
+@media(max-width: 500px) {
   .carousel-caption-title {
+font-size: .75rem;
     top: 20px;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 1px 1px #000000;
+  }
+  .carousel-caption-title h3{
+    font-size: 1rem;
   }
 }
 
 @media(min-width: 500px) {
   .carousel-caption-title {
     top: 20px;
-    font-size: 1.5em;
     text-shadow: 2px 2px #000000;
+  }
+  .carousel-caption-title h3{
+    font-size: 1.2rem;
+  }
+}
+
+
+@media(min-width: 700px) {
+  .carousel-caption-title {
+    top: 20px;
+    text-shadow: 3px 3px #000000;
+    font-size: 1.5rem;
+  }
+  .carousel-caption-title h3{
+    font-size:2rem;
   }
 }
 
@@ -269,12 +287,20 @@ img {
 .contact-map{
   border: 1px solid black;
   outline-style: solid;
-  outline-color: rgb(205, 92, 92);
+  outline-color: black;
+}
+
+.contact-form-col{
+  display: inline-block;
 }
 
 .text-bold{
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.text-underline{
+  text-decoration: underline;
 }
 
 .bg-dark-fade{
