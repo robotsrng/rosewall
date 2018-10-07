@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e1b499-a65e-4fc9-9fed-c724446367af" name="Default Changelist" comment="adjust puma">
+      <change afterPath="$PROJECT_DIR$/app/views/contacts/thanks.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +20,10 @@
     <session id="-2064618452">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="2" />
@@ -27,7 +32,7 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,7 +43,7 @@
           <entry key="conf" value="6" />
           <entry key="css" value="7" />
           <entry key="enc" value="1" />
-          <entry key="erb" value="69" />
+          <entry key="erb" value="80" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="6" />
           <entry key="jpg" value="3" />
@@ -48,9 +53,9 @@
           <entry key="log" value="2" />
           <entry key="rails" value="1" />
           <entry key="rake" value="1" />
-          <entry key="rb" value="68" />
+          <entry key="rb" value="80" />
           <entry key="ru" value="4" />
-          <entry key="scss" value="11" />
+          <entry key="scss" value="13" />
           <entry key="setup" value="1" />
           <entry key="spring" value="1" />
           <entry key="sql" value="1" />
@@ -64,9 +69,9 @@
           <entry key="Image" value="3" />
           <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="RHTML" value="69" />
-          <entry key="Ruby" value="89" />
-          <entry key="SCSS" value="11" />
+          <entry key="RHTML" value="80" />
+          <entry key="Ruby" value="101" />
+          <entry key="SCSS" value="13" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="2" />
         </counts>
@@ -77,11 +82,11 @@
           <entry key="Gemfile" value="58" />
           <entry key="conf" value="135" />
           <entry key="css" value="27" />
-          <entry key="erb" value="7860" />
+          <entry key="erb" value="8217" />
           <entry key="html" value="30" />
           <entry key="js" value="1998" />
-          <entry key="rb" value="847" />
-          <entry key="scss" value="3128" />
+          <entry key="rb" value="1349" />
+          <entry key="scss" value="3133" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
@@ -91,15 +96,15 @@
           <entry key="HTML" value="38" />
           <entry key="JavaScript" value="1990" />
           <entry key="PLAIN_TEXT" value="147" />
-          <entry key="RHTML" value="7860" />
-          <entry key="Ruby" value="910" />
-          <entry key="SCSS" value="3128" />
+          <entry key="RHTML" value="8217" />
+          <entry key="Ruby" value="1412" />
+          <entry key="SCSS" value="3133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="1" />
-          <entry key="git.branch.create.new" value="2" />
+          <entry key="git.branch.create.new" value="3" />
           <entry key="git.branch.merge" value="1" />
         </counts>
       </usages-collector>
@@ -107,29 +112,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/products.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss">
+        <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="229" column="1" lean-forward="true" selection-start-line="229" selection-start-column="1" selection-end-line="229" selection-end-column="1" />
+            <state relative-caret-position="286">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -138,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ssh</find>
       <find>rake</find>
       <find>Mid Michigan Materials</find>
       <find>www.midmichiganmaterials.com</find>
@@ -168,6 +154,7 @@
       <find>image</find>
       <find>foot</find>
       <find>posi</find>
+      <find>form</find>
     </findStrings>
     <replaceStrings>
       <replace>tag(&quot;</replace>
@@ -185,9 +172,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="remove_crud_crontrols" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="add_design_to_products_page" />
+                <branch-info repo="$PROJECT_DIR$" source="remove_crud_crontrols" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -209,7 +210,6 @@
         <option value="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/index.html" />
         <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
         <option value="$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/services.html" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
@@ -222,9 +222,19 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/calculator.html.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/contact_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/contact_mailer/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/models/contact.rb" />
+        <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/contacts_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/contacts_mailer/general_message.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/contacts/thanks.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
       </list>
     </option>
   </component>
@@ -249,7 +259,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="y" value="37" />
-    <option name="width" value="930" />
+    <option name="width" value="960" />
     <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -259,6 +269,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,33 +293,45 @@
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="mailers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts_mailer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
@@ -323,28 +346,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
@@ -366,12 +367,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="rou&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;rout&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;pages&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;con&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;page&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;pag&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;ro&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;ap&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/views/layouts/application.html.erb&#10;app&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/assets/javascripts/application.js&#10;gem&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/Gemfile&#10;gr&#9;null&#9;null&#10;rosewall&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="ro&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;rou&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;rout&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;pages&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;con&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;page&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;pag&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;ap&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/views/layouts/application.html.erb&#10;app&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/assets/javascripts/application.js&#10;gem&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/Gemfile&#10;gr&#9;null&#9;null&#10;rosewall&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../luxe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -531,6 +531,7 @@
       <workItem from="1538797118420" duration="12234000" />
       <workItem from="1538849063558" duration="3652000" />
       <workItem from="1538868919959" duration="7193000" />
+      <workItem from="1538891789282" duration="3683000" />
     </task>
     <task id="LOCAL-00001" summary="adjust puma">
       <created>1538409449838</created>
@@ -543,13 +544,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143602000" />
+    <option name="totallyTimeSpent" value="147440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="37" width="960" height="1043" extended-state="4" />
+    <frame x="0" y="37" width="1920" height="1043" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27171493" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13293864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -562,7 +563,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" weight="0.40929705" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.40929705" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.4047619" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -609,68 +610,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="adjust puma" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="152" column="26" lean-forward="true" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy/staging.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/puma-3.12.0/lib/puma/binder.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="369" selection-start-line="369" selection-end-line="369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/gravel_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/css/modern-business.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/vendor/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5916" column="11" selection-start-line="5916" selection-start-column="11" selection-end-line="5916" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/background.css" />
-    <entry file="file://$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="88" column="76" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="166" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/js/jqBootstrapValidation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-modern-business-gh-pages/portfolio-4-col.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="211" column="24" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="211" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -763,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -801,13 +733,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -830,24 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/contact.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/rosewall.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -867,8 +779,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/products.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state>
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/contact_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/contact.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="8" selection-end-line="84" />
         </state>
       </provider>
     </entry>
@@ -879,10 +834,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts_mailer/general_message.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/thanks.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modern-business.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="229" column="1" lean-forward="true" selection-start-line="229" selection-start-column="1" selection-end-line="229" selection-end-column="1" />
+        <state relative-caret-position="220">
+          <caret line="250" column="17" selection-start-line="250" selection-start-column="17" selection-end-line="250" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/contacts_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>
