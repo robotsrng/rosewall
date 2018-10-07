@@ -34,6 +34,7 @@ require "capistrano/rbenv"
 require "capistrano/bundler"
 require "capistrano/rails"
 require "capistrano/rails/assets"
+require 'capistrano/faster_assets'
 require "capistrano/rails/migrations"
 # require "capistrano/passenger"
 require "capistrano/puma"

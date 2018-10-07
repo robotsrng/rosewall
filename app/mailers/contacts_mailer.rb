@@ -1,5 +1,5 @@
 class ContactsMailer < ApplicationMailer
-  default from: "mail@rosewallpit.com"
+  default from: "shaneryanglass88@gmail.com"
 
   def general_message(contact)
     @contact = contact
