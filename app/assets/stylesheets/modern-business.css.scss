@@ -20,6 +20,10 @@ body {
   background-size: cover;
 }
 
+.card-image-portfolio{
+  max-height: 300px;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -71,7 +75,7 @@ body {
 @media(max-width: 500px) {
   .carousel-caption-title {
 font-size: .75rem;
-    top: 20px;
+    top: 15px;
     text-shadow: 1px 1px #000000;
   }
   .carousel-caption-title h3{
@@ -81,18 +85,18 @@ font-size: .75rem;
 
 @media(min-width: 500px) {
   .carousel-caption-title {
-    top: 20px;
+    top: 15px;
     text-shadow: 2px 2px #000000;
   }
   .carousel-caption-title h3{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 
 
-@media(min-width: 700px) {
+@media(min-width: 800px) {
   .carousel-caption-title {
-    top: 20px;
+    top: 15px;
     text-shadow: 3px 3px #000000;
     font-size: 1.5rem;
   }
@@ -190,6 +194,17 @@ ol.breadcrumb-heading {
   text-align: center;
 }
 
+.carousel-caption-secondary {
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
 .row {
   margin-bottom: 20px;
 }
@@ -198,6 +213,7 @@ ol.breadcrumb-heading {
   font-family: "MonotypeCorsiva";
   color: rgb(205, 92, 92);
   font-size: 2em;
+  line-height: .5em;
 }
 
 .bg-red {
