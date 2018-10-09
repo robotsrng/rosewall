@@ -2,6 +2,8 @@
 SitemapGenerator::Sitemap.default_host = "http://www.rosewallpit.com"
 
 SitemapGenerator::Sitemap.create do
+  add '/'
+  add '/delivery'
   add '/products'
   add '/contact'
   add '/calculator'
