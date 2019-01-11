@@ -16,7 +16,11 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127078414-1"></script>
   <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+
       gtag('js', new Date());
 
       gtag('config', 'UA-127078414-1');
@@ -30,16 +34,27 @@
 <hr>
 <!-- Footer -->
 <footer class="py-5">
-  <div class="container font-weight-bold text-md-center">
-    <% link_to button_tag("Contact Us"), '/contact', class: 'btn btn-primary'  %>
-  </div>
-  <div class="container font-weight-bold text-md-center ">
-    <a href="tel:2502282894" class="text-md-center text-white icon-img-text">   <%= image_tag('phone-white.png', alt: 'Phone Icon', class: 'icon-img') %>  Call Us 228-2894</a>
+  <div class="row">
+
+    <div class="container font-weight-bold text-md-center col-sm-4">
+      <a href="tel:2502282894" class="text-md-center text-white icon-img-text">   <%= image_tag('phone-white.png', alt: 'Phone Icon', class: 'icon-img') %>
+        Call Us 228-2894</a>
+    </div>
+    <div class="container font-weight-bold text-md-center col-sm-4">
+      <ul class="footer-contact-info">
+        <%= link_to "Contact Us", '/contact', class: 'no-link' %>
+        <li>8560 Island Hwy S.</li>
+        <li>Fanny Bay, BC</li>
+        <li>V9K 2E1</li>
+      </ul>
+    </div>
   </div>
   <!-- /.container -->
 </footer>
 <div class="container">
-  <p class="m-0 text-left font-weight-light small-font">Created by ShatteredDesign 2018</p>
+  <p class="m-0 text-left font-weight-light small-font">Created
+    by <%= link_to 'ShatteredDesign 2018', 'https://www.shattereddesign.xyz' %></p>
 </div>
+
 </body>
 </html>
