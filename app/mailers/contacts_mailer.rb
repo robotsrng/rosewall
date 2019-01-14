@@ -3,6 +3,6 @@ class ContactsMailer < ApplicationMailer
 
   def general_message(contact)
     @contact = contact
-    mail( :to => "meglettransport@gmail.com", :subject => "New Message from the Rosewall Pit Website.")
+    mail( :to => "shaneryanglass88@gmail.com", :subject => "New Message from the Rosewall Pit Website.")
   end
 end
