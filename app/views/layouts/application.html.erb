@@ -7,6 +7,7 @@
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Rosewall Gravel Pit - Servicing Qualicum and surrounding areas - Vancouver Island - Is a local supplier of sand, gravel, aggregate and landscaping materials to the Parksville - Qualicum area. With a wide range of materials and delivery options they can provide for any project size or scope.">
@@ -25,36 +26,17 @@
 
       gtag('config', 'UA-127078414-1');
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations.min.js"></script>
 </head>
 
 <body>
 <%= render 'layouts/navigation' %>
 <%= yield %>
 
-<hr>
 <!-- Footer -->
-<footer class="py-5">
-  <div class="row">
-
-    <div class="container font-weight-bold text-md-center col-sm-4">
-      <a href="tel:2502282894" class="text-md-center text-white icon-img-text">   <%= image_tag('phone-white.png', alt: 'Phone Icon', class: 'icon-img') %>
-        Call Us 228-2894</a>
-    </div>
-    <div class="container font-weight-bold text-md-center col-sm-4">
-      <ul class="footer-contact-info">
-        <%= link_to "Contact Us", '/contact', class: 'no-link' %>
-        <li>8560 Island Hwy S.</li>
-        <li>Fanny Bay, BC</li>
-        <li>V9K 2E1</li>
-      </ul>
-    </div>
-  </div>
-  <!-- /.container -->
-</footer>
-<div class="container">
-  <p class="m-0 text-left font-weight-light small-font">Created
-    by <%= link_to 'ShatteredDesign 2018', 'https://www.shattereddesign.xyz' %></p>
-</div>
+<%= render 'layouts/footer' %>
 
 </body>
 </html>

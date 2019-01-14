@@ -1,104 +1,108 @@
-<div class="bg-red body-header">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item  active" style="background: url(<%= asset_path 'rosewall-piles.jpg' %>)">
-        <div class="carousel-caption carousel-caption-title">
-          <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
-          <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
-        </div>
-        <div class="carousel-caption  carousel-caption-bg">
-          <h3><%= link_to "Large and Small", "/contact", class: 'no-link' %></h3>
-          <p>We can provide materials for large scale operations down to the backyard project.
-        </div>
-      </div>
-      <div class="carousel-item" style="background: url(<%= asset_path 'rosewall-operation.jpg' %>)">
-        <div class="carousel-caption  carousel-caption-title">
-          <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
-          <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
-        </div>
-        <div class="carousel-caption carousel-caption-bg">
-          <h3><%= link_to "Wide Selection of Materials", "/product", class: 'no-link' %></h3>
-          <p>We can provide the right material to suit your needs.</p>
-        </div>
-      </div>
-      <div class="carousel-item" style="background: url(<%= asset_path 'rosewall-pit-truck.jpg' %>)">
-        <div class="carousel-caption carousel-caption-title">
-          <h1 class="logo-initial-cap">Rosewall Gravel Pit</h1>
-          <p>Screening sand, gravel, drainage rock and aggregate for any project.</p>
-        </div>
-        <div class="carousel-caption carousel-caption-bg">
-          <h3><%= link_to "Hauling and Delivery", "/delivery", class: 'no-link' %></h3>
-          <p>A variety of options to get the product to where you need it.</p>
-        </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <br><br>
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-  </div>
-</div>
-<div class="wide-container bg-dark-fade">
-  <div class="container ">
-    <ol class="wide-container-content ">
-      <li class="breadcrumb-item active text-white">Serving the Lighthouse County and surrounding areas, we are
-        the local gravel pit you can trust. Located just off the Island Highway, we are able to provide for any project,
-        large or small, and are able to provide delivery.
-      </li>
-    </ol>
-  </div>
-</div>
-<div class="container">
-  <br>
-  <div class="row">
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <%= image_tag("large-operation.jpg", alt: "Rosewall Pit - Qualicum Bay - Gravel site conveyor belt adding to gravel pile", class: "card-image") %>
-        <div class="card-body">
-          <h4 class="card-title">
-            <%= link_to "Large Operations", '/contact', class: 'no-link' %>
-          </h4>
-          <p class="card-text">We can provide for any large scale construction or contract needs.</p>
+<!-- Slider area -->
+<section class="slider_area row m0">
+  <div class="slider_inner">
+    <div data-thumb="<%= asset_path 'rosewall-slider-excavate.jpg' %>" data-src="<%= asset_path 'rosewall-slider-excavate.jpg' %>">
+      <div class="camera_caption">
+        <div class="container">
+          <h5 class=" wow fadeInUp animated caption-text">Welcome To</h5>
+          <h3 class=" wow fadeInUp animated caption-text" data-wow-delay="0.5s"><span class="logo-initial-cap">R</span>osewall Gravel Pit</h3>
+          <p class=" wow fadeInUp animated caption-text" data-wow-delay="0.5s">Providing Sand, Gravel, Landscaping Material, Road
+            Crush And More To The Qualicum Area, Parksville, Nanaimo And Beyond.</p>
+          <a class=" wow fadeInUp animated" data-wow-delay="1s" href="/products">Read More</a>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <%= image_tag("black-truck.jpg", alt: "Rosewall Pit - Qualicum Beach - Truck Loading Gravel At A Road Construction Site", class: "card-image") %>
-        <div class="card-body">
-          <h4 class="card-title">
-            <%= link_to "Small Projects", '/contact', class: 'no-link' %>
-          </h4>
-          <p class="card-text">The simple backyard fix or a new driveway; Rosewall Gravel Pit can fill your order.</p>
+    <div data-thumb="<%= asset_path 'rosewall-slider-operations.jpg' %>" data-src="<%= asset_path 'rosewall-slider-operations.jpg' %>">
+      <div class="camera_caption">
+        <div class="container">
+          <h5 class=" wow fadeInUp animated caption-text">Welcome To</h5>
+          <h3 class=" wow fadeInUp animated caption-text" data-wow-delay="0.5s"><span class="logo-initial-cap">R</span>osewall Gravel Pit</h3>
+          <p class=" wow fadeInUp animated caption-text" data-wow-delay="0.5s">Providing Sand, Gravel, Landscaping Material, Road
+            Crush And More To The Qualicum Area, Parksville, Nanaimo And Beyond.</p>
+          <a class=" wow fadeInUp animated" data-wow-delay="1s" href="/products">Read More</a>
         </div>
       </div>
     </div>
-
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <%= image_tag("backyard.jpg", alt: "Rosewall Pit - Vancouver Island - Truck unloading gravel at a home construction site", class: "card-image") %>
-        <div class="card-body">
-          <h4 class="card-title">
-            <%= link_to "Delivery", "/delivery", class: 'no-link' %>
-          </h4>
-
-          <p class="card-text">Delivering large and small to the Qualicum Region and surrounding areas.</p>
+    <div data-thumb="<%= asset_path 'rosewall-slider-screener.jpg' %>" data-src="<%= asset_path 'rosewall-slider-screener.jpg' %>">
+      <div class="camera_caption">
+        <div class="container">
+          <h5 class=" wow fadeInUp animated caption-text">Welcome To</h5>
+          <h3 class=" wow fadeInUp animated caption-text" data-wow-delay="0.5s"><span class="logo-initial-cap">R</span>osewall Gravel Pit</h3>
+          <p class=" wow fadeInUp animated caption-text" data-wow-delay="0.5s">Providing Sand, Gravel, Landscaping Material, Road
+            Crush And More To The Qualicum Area, Parksville, Nanaimo And Beyond.</p>
+          <a class=" wow fadeInUp animated" data-wow-delay="1s" href="/products">Read More</a>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
+<!-- End Slider area -->
+
+
+
+<!-- services -->
+<section id="services" class="services_grid row">
+  <div class="container">
+    <div class="row builder_all">
+      <div class="col-sm-4 col-xs-12 service_card">
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <h4>We Deliver Quality</h4>
+        <p>We can bring your product to your door, where you want it, when you want it. Delivering gravel, sand, road
+          crush and anything in between around Vancouver Island.</p>
+      </div>
+      <div class="col-sm-4 col-xs-12 service_card">
+        <i class="fa fa-road" aria-hidden="true"></i>
+        <h4>Large Or Small</h4>
+        <p>Rosewall has the equipment, gravel, material and experience to provide for any size operation; from your
+          new
+          driveway, a new service road or a commercial contract, we have got your back.</p>
+      </div>
+      <div class="col-sm-4 col-xs-12 service_card">
+        <i class="fa fa-handshake" aria-hidden="true"></i>
+        <h4>Locally Owned and Operated</h4>
+        <p>Newly opened and located near Qualicum Beach, we are your local gravel and aggregate provider with over 50
+          years experience in the industry.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us -->
+<section class="about_us_area row">
+  <div class="container">
+    <div class="title_s wow fadeInUp">
+      <h2>Rosewall Gravel Pit</h2>
+      <h4>Serving the Lighthouse County and surrounding areas, we are the local gravel pit you can trust.</h4>
+    </div>
+    <div class="row about_row">
+      <div class="who_we_area col-md-7 col-sm-6">
+        <div class="subtitle_s">
+          <h2>WHO WE ARE</h2>
+        </div>
+        <p>Located just off the Island Highway, between Qualicum Beach and Parksville, Rosewall Gravel Pit is able to
+          provide for any project, large or small. Producing sand, gravel, drain rock, navy jack and more, we can
+          deliver it direct to your door or project.</p>
+        <a href="/contact" class="button_all">Contact Now</a>
+      </div>
+      <div class="col-md-5 col-sm-6 about_client">
+        <%= image_tag("rosewall-about-me-landscape.jpg", alt: 'Rosewall Gravel Pit Aerial Shot - Loader, Excavator, Screener, Sand Gravel') %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="what_we_area row">
+  <div class="container">
+    <div class="title_s wow fadeInUp">
+      <h2>WHAT WE OFFER</h2>
+      <h4>Rosewall Gravel Pit produces all the standard materials, but feel free to contact us for any special inquiries.</h4>
+    </div>
+    <div class="row offer_inner">
+      <%= render "layouts/products_carousel" %>
+    </div>
+  </div>
+</section>
+
 <!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
 <script type="application/ld+json">
 {

@@ -1,35 +1,54 @@
-<!-- Page Content -->
-<div class="body-header">
+<!-- Banner area -->
+<section class="banner_area_calc banner_area " data-stellar-background-ratio="0.5">
+  <h2 class="caption-text">Calculator</h2>
+  <ol class="breadcrumb">
+    <li><a  class="caption-text" href="/">Home</a></li>
+    <li><a href="#" class="caption-text active">Calculator</a></li>
+  </ol>
+</section>
+<!-- End Banner area -->
+
+<!-- Building Construction Area -->
+<section class="building_construction_area">
   <div class="container">
-    <form id="calculator-selector" class="text-bold text-center">
-      <table class="table">
-        <tr class="row">
-          <td class="col-md-2  "><input type="radio" name="calculator-selector" value="square-calculator">
-            Rectangle<br>
-          </td>
-          <td class="col-md-2"><input type="radio" name="calculator-selector" value="cone-calculator"> Cone<br></td>
-          <td class="col-md-2"><input type="radio" name="calculator-selector" value="cylinder-calculator">
-            Cylinder<br>
-          </td>
-          <td class="col-md-6"></td>
-        </tr>
-      </table>
-    </form>
-    <div id="calculator-container" class="calculator-container bg-dark-fade text-white text-bold">
-      <br>
-      <p>Please select a calculator type.</p>
+    <div class="row building_construction_row">
+      <div class="col-sm-8 ">
+        <h2>Calculator</h2>
+        <form id="calculator-selector" class="text-bold text-center">
+          <table class="table">
+            <tr class="row">
+              <td class="  "><input type="radio" name="calculator-selector" value="square-calculator">
+                Rectangle<br>
+              </td>
+              <td class=""><input type="radio" name="calculator-selector" value="cone-calculator"> Cone<br></td>
+              <td class=""><input type="radio" name="calculator-selector" value="cylinder-calculator">
+                Cylinder<br>
+              </td>
+              <td class="col-md-6"></td>
+            </tr>
+          </table>
+        </form>
+        <div id="calculator-container" class="calculator-container bg-dark-fade text-white text-bold">
+          <br>
+          <p>Please select a calculator type.</p>
+          <hr>
+        </div>
+
+      </div>
+      <div class="col-sm-4 constructing_right">
+        <h2>Estimate Your Needs</h2>
+        <p>Calculate how much product you need with our handy calculator.</p>
+        <p>Just select the rough shape and enter the dimensions when prompted.</p>
+        <hr>
+        <div class="contact_us">
+          <h4>Contact Us</h4>
+          <a href="/contact" class="button_all">Contact Us</a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="container">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item">
-      <a href="/">Home</a>
-    </li>
-    <li class="breadcrumb-item active">Calculator</li>
-  </ol>
-</div>
-
+</section>
+<!-- End Building Construction Area -->
 <div id="myModal" class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -43,7 +62,7 @@
         <p>Modal body text goes here.</p>
       </div>
       <div class="modal-footer ">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="button_all" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

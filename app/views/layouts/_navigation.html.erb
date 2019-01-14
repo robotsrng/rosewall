@@ -1,16 +1,51 @@
-<!-- Navigation -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top ">
+<div class="preloader"></div>
+
+<!-- Top Header_Area -->
+<section class="top_header_area">
   <div class="container">
-
-    <a class="navbar-brand align-right" href="/"><%= image_tag("logo.png", :alt => "Rosewell Logo", class: "logo nav-logo") %></a>
-
-    <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse dropdown-menu-right" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto dropdown-menu-right">
-        <%= render 'layouts/navigation_links' %>
-      </ul>
-    </div>
+    <ul class="nav navbar-nav top_nav">
+      <li>
+        <a href="tel:2502282894" class="nav-link phone-call-to-action"><i class="fa fa-phone"></i><%#= image_tag('phone.png', alt: 'Phone Icon', class: 'icon-img icon-img-link') %>
+          Call Us At 228-2894</a></li>
+      <li><a href="/contact"><i class="fa fa-envelope"></i>Email Us</a></li>
+      <li><a href="/contact"><i class="fa fa-clock"></i>Mon - Fri 08:00 - 17:00</a></li>
+    </ul>
   </div>
+</section>
+<!-- End Top Header_Area -->
+
+<!-- Header_Area -->
+<nav class="navbar navbar-default header_area navbar-toggleable-md" id="main_navbar">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="col-md-2 p0">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand">
+          <a class=" " href="index.html">
+            <div class="underline-text">
+              <span class="header-logo-initial-cap ">R</span>
+              <span class="header-logo-second ">osewall Pit</span>
+              <!--          <a class="navbar-brand" href="index.html"><%#= image_tag("logo.png", :alt => "Rosewall Gravel Pit Logo", class: "logo nav-logo") %>-->
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="col-md-10 p0">
+      <div class="collapse navbar-collapse" id="min_navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <%= render 'layouts/navigation_links' %>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </div><!-- /.container -->
 </nav>
+<!-- End Header_Area -->

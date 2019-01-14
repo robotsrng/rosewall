@@ -54,7 +54,7 @@ $(document).on('turbolinks:load', function () {
         '    <td class="col-md-2"><label for="calc-depth">Depth (ft): </label></td><td class="col-md-2"><input id="calc-depth" type="number" name="calc-depth"></td>\n' +
         '  </tr>\n' +
         '  <tr class="row">\n' +
-        '    <td class="col-md-2"><button type="button" id="square-calc-button" data-toggle="modal" data-target="#myModal">Calculate</button></td>\n' +
+        '    <td class="col-md-2"><button class="button_all" type="button" id="square-calc-button" data-toggle="modal" data-target="#myModal">Calculate</button></td>\n' +
         '  </tr>\n  ' +
         '</table>\n' +
         '</div>';
