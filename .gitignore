@@ -20,7 +20,7 @@
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
-
+/puma.rb
 /node_modules
 /yarn-error.log
 
