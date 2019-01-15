@@ -1,78 +1,86 @@
-<!-- Page Content -->
+<!-- Banner area -->
+<section class="banner_area_calc banner_area " data-stellar-background-ratio="0.5">
+  <h2 class="caption-text">Delivery</h2>
+  <ol class="breadcrumb">
+    <li><a class="caption-text" href="/">Home</a></li>
+    <li><a href="#" class="caption-text active">Delivery</a></li>
+  </ol>
+</section>
+<!-- End Banner area -->
 
-<!-- Page Heading/Breadcrumbs -->
-<div class="container">
-  <div class="product-header body-header">
-    <div class="carousel-caption-secondary carousel-caption-title carousel-caption-title-shrink">
-      <br><br><br>
-<!--      <h3 class="logo-initial-cap">Rosewall Gravel Pit</h3>-->
+<!-- About Us Area -->
+<section class="about_us_area row">
+  <div class="container">
+    <div class="row about_row">
+      <div class="col-md-5 col-sm-6 about_client about_pages_client">
+        <%= image_tag("products_home_excavator.jpg", alt: "Rosewall Gravel Pit - Home Supply - Gravel Supply Excavator - Truck Delivery - Victoria - Parksville - Qualicum", class: "card-image-portfolio") %>
+
+      </div>
+      <div class="who_we_area col-md-7 col-sm-6">
+        <div class="subtittle">
+          <h2>Delivery Services</h2>
+        </div>
+        <p>With years of experience laying a solid foundation, Rosewall Gravel Pit can offer delivery to your road
+          site or backyard. Service to Qualicum, Fanny Bay, Nanaimo, the Parksville - Comox region and beyond. <br>Delivering by the ton or
+          by the yard, call us to
+          discuss your project, plans and options.<br>Large hauling capacity and quick turnarounds can make your
+          contract work a breeze.</p>
+          <a href="#" class="button_all">Contact Now</a>
+      </div>
     </div>
-    <%= image_tag("meglet-truck-banner.jpg", alt: "Rosewall Gravel Pit - Meglet Transport - Qualicum Beach - Vancouver Island - Screening gravel with screener and backhoe", class: "product-header-img") %>
   </div>
-</div>
+</section>
+<!-- End About Us Area -->
 
-<div class="container">
-  <div class="bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 product-header-text">
-          <div class="services-text text-white text-center">
-            <h2 class="logo-initial-cap">Prompt Delivery, With Experienced Operators</h2>
-            <p>With years of experience laying a solid foundation, Rosewall Gravel Pit can offer delivery to your road
-              site or backyard. Servicing the Parksville - Comox region and surrounding areas.</p>
-            <p>Delivering by the ton or by the yard, <%= link_to "contact us", '/contact', class: 'no-link' %> to
-              discuss your project, plans and options.</p>
-            <p>Large hauling capacity and quick turnarounds can make your contract work a breeze.</p>
+<!-- Our Features Area -->
+<section class="our_feature_area">
+  <div class="container">
+    <div class="feature_row row">
+      <div class="col-md-6 feature_img">
+        <%= image_tag("meglet-truck-back.jpg", alt: "Rosewall Gravel Pit - Black Pickup for picking local delivery and other projects.", class: "card-image-portfolio") %>
+      </div>
+      <div class="col-md-6 feature_content">
+        <div class="subtitles">
+          <h2>WHY CHOOSE US</h2>
+        </div>
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <i class="fa fa-wrench" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="media-body">
+            <a href="#">50+ YEARS OF EXPERIENCE</a>
+            <p>With the right tools, equipment and expertise at their disposal; Rosewall Gravel Pit can
+              support any endeavor.</p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <i class="fa fa-rocket" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="media-body">
+            <a href="#">Qualified Experts</a>
+            <p>Our trained and professional crew know what goes in to laying that new foundation, pouring that driveway or delivering the right grade of gravel to your road works.</p> </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <i class="fa fa-users" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="media-body">
+            <a href="#">Large Delivery Area</a>
+            <p>Serving the island, we can delivery what you need, when you need it. Use our calculator
+              to estimate your needs.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4 col-sm-6 portfolio-item">
-      <div class="card card-portfolio h-100">
-        <%= image_tag("fill-sand.jpg", alt: "Rosewall Gravel Pit - Delivering Fill Sand To Customers around Parksville", class: "card-image-portfolio") %>
-        <div class="card-body">
-          <h4 class="card-title">
-            Local Professionals
-          </h4>
-          <p class="card-text">With the right tools, equipment and expertise at their disposal; Rosewall Gravel Pit can
-            support any endeavor. </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6 portfolio-item">
-      <div class="card card-portfolio h-100">
-        <%= image_tag("meglet-truck-back.jpg", alt: "Rosewall Gravel Pit - Black Pickup for picking local delivery and other projects.", class: "card-image-portfolio") %>
-        <div class="card-body">
-          <h4 class="card-title">
-            Any Amount, Any Where
-          </h4>
-          <p class="card-text">Serving the island, we can delivery what you need, when you need it. Use our calculator
-            to estimate your needs.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6 portfolio-item">
-      <div class="card card-portfolio h-100">
-        <%= image_tag("backyard-box.jpg", alt: "Rosewall Gravel Pit - Local Qualicum Courtenay Comox Parksville Gravel Pit Run", class: "card-image-portfolio") %>
-        <div class="card-body">
-          <h4 class="card-title">
-            <%= link_to "Contact Us", '/contact', class: 'no-link' %>
-          </h4>
-          <p class="card-text">Get in touch to discuss your needs and request a quote.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item">
-      <a href="/">Home</a>
-    </li>
-    <li class="breadcrumb-item active">Products</li>
-  </ol>
+</section>
+<!-- End Our Features Area -->
 
-</div>
-<!-- /.container -->
