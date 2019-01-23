@@ -244,7 +244,7 @@ body, html{
     background-color: #ffffff;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: asset-url("images/preloader.gif");
+    background-image: asset-url("preloader.gif");
 }
 
 /*--------------------------------------------------*/
@@ -675,7 +675,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     content: "";
     position: absolute;
     top: -20px;
-    background: asset-url("images/prev1.png") no-repeat;
+    background: asset-url("prev1.png") no-repeat;
     left: 382px;
     height: 50px;
     width: 50px;
@@ -685,7 +685,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     content: "";
     position: absolute !important;
     top: 0;
-    background: asset-url("images/next1.png") no-repeat;
+    background: asset-url("next1.png") no-repeat;
     right: 382px;
     height: 50px;
     width: 50px;
@@ -1309,7 +1309,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 /*--------------------------------------------------*/
 .our_achievments_area {
-    background: url("../images/images/achievments_bg.jpg") no-repeat fixed;
+    background: url("../../../config/achievments_bg.jpg") no-repeat fixed;
     background-position: center;
     text-align: center;
     position: relative;
@@ -1502,7 +1502,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End Our Partners Area */
 /*--------------------------------------------------*/
 .featured_works {
-    background: url("../images/images/protfolio_bg.jpg") no-repeat fixed;
+    background: url("../../../config/protfolio_bg.jpg") no-repeat fixed;
     background-position: center;
     text-align: center;
     position: relative;
@@ -2384,6 +2384,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 /* End Map Css */
 /* All contact Info Css */
+
 .all_contact_info .contact_row {
     padding: 100px 0;
 }
@@ -2491,7 +2492,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End All contact Info Css */
 /*--------------------------------------------------*/
 .footer_area {
-    background: asset-url("images/footer.jpg") no-repeat;
+    background: asset-url("footer.jpg") no-repeat;
     position: relative;
     background-size: cover;
     background-position: center;

@@ -16,19 +16,40 @@
     <div class="architecture_area services_pages">
       <div class="portfolio_filter portfolio_filter_2">
         <ul>
-          <li data-filter="*"><a href="active"><i class="fa fa-check" aria-hidden="true"></i>All Services</a>
+          <li data-filter=".products" class="active">
+            <a href="active"><i class="fa fa-check" aria-hidden="true"></i>All Products</a>
           </li>
           <li data-filter=".domestic" class=""><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a>
           </li>
           <li data-filter=".commercial"><a href=""><i class="fa fa-cogs" aria-hidden="true"></i>Commercial</a></li>
-          <li data-filter=".hauling"><a href=""><i class="fa fa-truck-pickup" aria-hidden="true"></i>Hauling & Delivery</a></li>
+          <li data-filter=".hauling">
+            <a href=""><i class="fa fa-truck-pickup" aria-hidden="true"></i>Hauling & Delivery</a></li>
 
-          <li data-filter=".contact"><a href="/contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</a></li>
+          <li data-filter=".contact"><a href="/contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</a>
+          </li>
         </ul>
       </div>
-      <!--      HOME-->
+      <!--PRODUCTS-->
       <div class="portfolio_item portfolio_2">
         <div class="grid-sizer-2"></div>
+        <div class="single_facilities col-sm-12 products">
+          <div class="row">
+            <div class="col-sm-12">
+              <section class="what_we_area">
+                <div class="title_s wow fadeInUp">
+                  <h2>WHAT WE OFFER</h2>
+                  <h4>Rosewall Gravel Pit produces all the standard materials, but feel free to contact us for any
+                    special
+                    inquiries.</h4>
+                </div>
+                <div class="row offer_inner">
+                  <%= render "layouts/products_carousel" %>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+
         <div class="single_facilities col-sm-12 domestic">
           <div class="row">
             <div class="col-sm-6">
@@ -89,6 +110,8 @@
         <div class="single_facilities col-sm-12 contact">
           <div class="row">
             <div class="col-sm-6 contact_info">
+              <br>
+              <br><br>
               <h2>Get In Touch</h2>
               <hr>
               <p>Feel free to get in touch with our knowledgable team for any questions or concerns you may have.</p>
@@ -101,10 +124,7 @@
               </div>
             </div>
             <div class="col-sm-6 contact_info send_message">
-              <h2>Send Us a Message</h2>
-              <hr>
               <%= render 'contacts/form', contact: Contact.new %>
-
             </div>
           </div>
         </div>
@@ -112,14 +132,3 @@
     </div>
   </div>
 </section>
-
-<section class="what_we_area row">
-  <div class="container">
-    <div class="title_s wow fadeInUp">
-    </div>
-    <div class="row offer_inner">
-      <%= render "layouts/products_carousel" %>
-    </div>
-  </div>
-</section>
-

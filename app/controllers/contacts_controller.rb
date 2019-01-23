@@ -4,24 +4,10 @@ class ContactsController < ApplicationController
 
   # GET /contacts/new
   def new
-    @contact = Contact.new
   end
 
-  # POST /contacts
-  # POST /contacts.json
-  def create
-    @contact = Contact.new(contact_params)
 
-    if @contact.save
-      ContactsMailer.with(@contact).general_message(@contact).deliver_now
-      render :thanks
-    else
-      render :new
-    end
-  end
 
-  def thanks
-  end
 
 
   private
