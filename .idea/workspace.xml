@@ -2,163 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e1b499-a65e-4fc9-9fed-c724446367af" name="Default Changelist" comment="adjust puma">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/back-fill.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/backyard-box.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/backyard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/black-truck.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/blue-sky-square.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/blue-truck-square.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/construction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/footer-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/about_client.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/achievments.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/achievments_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/banner-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/blog_hed-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/lb-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/lb-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/lb-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/renovation/r-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/rs-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/rs-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/blog/rs-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/camera-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/camera_skins.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/client_logo/client_logo-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/client_logo/client_logo-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/client_logo/client_logo-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/client_logo/client_logo-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/client_logo/client_logo-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/cns-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/cns-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/cns-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/construction-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/construction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/feature-man-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/feature-man-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/feature-man-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/feature-man.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/footer-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/footer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/footer.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/gl-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/gl-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/gl-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/gl-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/gl-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/gl-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/gl-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/gl-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/sv-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/sv-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/sv-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/sv-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/sv-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/gallery/sv-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/next1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/next1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/patterns/overlay9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/preloader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/preloader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/prev.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/prev1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/prev1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/protfolio_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/slider-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/slider-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/team/tm-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/team/tm-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/team/tm-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/team/tm-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/team/tm-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/team/tm-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/team/tm-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/team/tm-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/testimonial-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/testimonial-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/testimonial-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/images/testimonial-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/large-operation.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/large-rock.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/map-trim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/phone-icon-website.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/phone-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/phone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/phone.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/screening.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/white_truck.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/contacts.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/rosewall.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/404.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/Counter-Up/jquery.counterup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/Counter-Up/waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/animate/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/camera-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/camera_skins.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/patterns/overlay9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/camera-slider/images/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/isotope/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/isotope/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/linearicons/Linearicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/linearicons/fonts/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/linearicons/fonts/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/linearicons/fonts/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/linearicons/fonts/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/linearicons/fonts/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/map/topbuilder_map.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/popup/lightbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/popup/lightbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/vendors/stellar/jquery.stellar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contacts/thanks.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_products_carousel.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_products_carousel.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/services-2_template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/about_template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/contact_template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/index_template.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/pages/products.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/products.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/services_template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +36,7 @@
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.3" value="5" />
@@ -201,7 +45,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -300,13 +144,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
+            <state relative-caret-position="288">
               <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="655">
@@ -315,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/products.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2486">
-              <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+            <state relative-caret-position="372">
+              <caret line="116" column="65" selection-start-line="116" selection-start-column="65" selection-end-line="116" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -467,9 +311,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" />
         <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/products.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contacts/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/products.html.erb" />
       </list>
     </option>
   </component>
@@ -551,8 +395,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -752,6 +596,7 @@
       <workItem from="1547464111937" duration="90000" />
       <workItem from="1547503454592" duration="12592000" />
       <workItem from="1547526236557" duration="19000" />
+      <workItem from="1548231875819" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="adjust puma">
       <created>1538409449838</created>
@@ -764,12 +609,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253091000" />
+    <option name="totallyTimeSpent" value="253248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="37" width="1920" height="1043" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.19913886" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" weight="0.20236814" />
+      <window_info id="Structure" order="1" sideWeight="0.5008375" side_tool="true" weight="0.19590957" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.32312927" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.4047619" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32993197" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32992464" />
+      <window_info anchor="right" id="Key Promoter X" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.20236814" />
       <window_info id="Structure" order="1" sideWeight="0.5008375" side_tool="true" weight="0.19590957" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -790,29 +660,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32992464" />
-      <window_info anchor="right" id="Key Promoter X" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18514532" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" weight="0.32312927" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.4047619" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Key Promoter X" order="4" />
     </layout-to-restore>
   </component>
@@ -1024,15 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="288">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/products.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2486">
-          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1040,6 +880,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
           <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/products.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="116" column="65" selection-start-line="116" selection-start-column="65" selection-end-line="116" selection-end-column="65" />
         </state>
       </provider>
     </entry>
