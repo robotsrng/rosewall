@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Rosewall Gravel Pit - Gravel, Sand and Landscaping Material Around Parksville</title>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
 
@@ -10,8 +9,14 @@
   <%= favicon_link_tag asset_path('icon.ico'), :rel => 'icon', :type => "image/x-icon" %>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Rosewall Gravel Pit - Servicing Qualicum and surrounding areas - Vancouver Island - Is a local supplier of sand, gravel, aggregate and landscaping materials to the Parksville - Qualicum area. With a wide range of materials and delivery options they can provide for any project size or scope.">
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+  <title>Rosewall Gravel Pit - <%= content_for?(:title) ? yield(:title) : 'Gravel, Sand and Landscaping Material Around Parksville' %> </title>
+  <meta name='description'
+        content='<%= yield_meta_tag(:description, 'Rosewall Gravel Pit - Serving The Qualicum Area - Sand, Soil, Gravel, Landscaping and Aggregate Supply.  - Servicing Qualicum and surrounding areas - Vancouver Island - Is a local supplier of sand, gravel, aggregate and landscaping materials to the Parksville - Qualicum area. With a wide range of materials and delivery options they can provide for any project size or scope.') %>' />
+  <meta name='keywords'
+        content='<%= yield_meta_tag(:keywords, 'gravel,sand,soil,road crush,aggregate,landscaping,delivery') %>' />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0, minimum-scale=0.86">
+
   <meta name="author" content="Rosewall Gravel Pit">
   <meta name="msvalidate.01" content="752047DB247EC6F1323D0F757A4595B9" \/>
   <!-- Global site tag (gtag.js) - Google Analytics -->
