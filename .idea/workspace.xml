@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e1b499-a65e-4fc9-9fed-c724446367af" name="Default Changelist" comment="adjust puma">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/rosewall-delivery.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/delivery.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/delivery.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +29,8 @@
     <session id="-2064618452">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="47" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="49" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="4" />
@@ -45,9 +44,9 @@
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,8 +58,8 @@
           <entry key="conf" value="7" />
           <entry key="css" value="24" />
           <entry key="enc" value="1" />
-          <entry key="erb" value="192" />
-          <entry key="gitignore" value="8" />
+          <entry key="erb" value="193" />
+          <entry key="gitignore" value="9" />
           <entry key="html" value="25" />
           <entry key="jpg" value="18" />
           <entry key="js" value="46" />
@@ -89,8 +88,8 @@
           <entry key="HTML" value="25" />
           <entry key="Image" value="19" />
           <entry key="JavaScript" value="46" />
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="RHTML" value="192" />
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="RHTML" value="193" />
           <entry key="Ruby" value="159" />
           <entry key="SCSS" value="49" />
           <entry key="Scratch" value="1" />
@@ -104,7 +103,7 @@
           <entry key="Gemfile" value="61" />
           <entry key="conf" value="136" />
           <entry key="css" value="460" />
-          <entry key="erb" value="18545" />
+          <entry key="erb" value="18613" />
           <entry key="gitignore" value="54" />
           <entry key="html" value="44" />
           <entry key="js" value="2257" />
@@ -119,7 +118,7 @@
           <entry key="HTML" value="52" />
           <entry key="JavaScript" value="2249" />
           <entry key="PLAIN_TEXT" value="262" />
-          <entry key="RHTML" value="18545" />
+          <entry key="RHTML" value="18613" />
           <entry key="Ruby" value="1858" />
           <entry key="SCSS" value="5110" />
         </counts>
@@ -136,10 +135,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/delivery.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="333">
+              <caret line="32" column="143" selection-start-line="32" selection-start-column="143" selection-end-line="32" selection-end-column="143" />
             </state>
           </provider>
         </entry>
@@ -269,7 +268,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/theme.js" />
         <option value="$PROJECT_DIR$/app/views/pages/services_template.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/calculator.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/public/robots.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
@@ -290,6 +288,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/delivery.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
       </list>
     </option>
   </component>
@@ -328,7 +327,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,14 +349,14 @@
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosewall" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
@@ -376,6 +374,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -580,7 +579,9 @@
       <workItem from="1548272373111" duration="2624000" />
       <workItem from="1548283239845" duration="7050000" />
       <workItem from="1548297404417" duration="726000" />
-      <workItem from="1550626111159" duration="100000" />
+      <workItem from="1550626111159" duration="4852000" />
+      <workItem from="1550654743443" duration="12000" />
+      <workItem from="1550886183841" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="adjust puma">
       <created>1538409449838</created>
@@ -593,13 +594,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265011000" />
+    <option name="totallyTimeSpent" value="269844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="37" width="1920" height="1043" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.21528526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.2217438" />
       <window_info id="Structure" order="1" sideWeight="0.5008375" side_tool="true" weight="0.19590957" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -681,13 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -861,20 +855,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/rosewall-delivery.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="37" />
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/rosewall-delivery.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/delivery.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="143" selection-start-line="32" selection-start-column="143" selection-end-line="32" selection-end-column="143" />
         </state>
       </provider>
     </entry>
