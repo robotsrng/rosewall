@@ -2,7 +2,202 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e1b499-a65e-4fc9-9fed-c724446367af" name="Default Changelist" comment="adjust puma">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rosewall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rosewall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capfile" beforeDir="false" afterPath="$PROJECT_DIR$/Capfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/MonotypeCorsiva.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/MonotypeCorsiva.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/coarse-sand.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/coarse-sand.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/drain-rock-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/drain-rock-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/drain-rock-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/drain-rock-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/fill-sand.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/fill-sand.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/footer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/footer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/meglet-truck-back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/meglet-truck-back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/meglet-truck-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/meglet-truck-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/meglet-truck-front.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/meglet-truck-front.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/meglet-truck-front.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/meglet-truck-front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/navvy-jack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/navvy-jack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/next1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/next1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/oversized-rock.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/oversized-rock.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pea-gravel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/pea-gravel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/pit-run-gravel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/pit-run-gravel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/preloader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/preloader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/prev1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/prev1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/product_commercial_landscape.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/product_commercial_landscape.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/products_home_delivery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/products_home_delivery.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/products_home_excavator.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/products_home_excavator.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-about-me-landscape.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-about-me-landscape.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-about-me-landscape.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-about-me-landscape.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-conveyor-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-conveyor-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-conveyor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-conveyor.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-conveyor.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-conveyor.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-delivery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-delivery.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-header-gravel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-header-gravel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-landscape-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-landscape-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-landscape-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-landscape-banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-landscape-banner.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-landscape-banner.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-operation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-operation.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-piles.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-piles.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-pit-truck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-pit-truck.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-slider-excavate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-slider-excavate.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-slider-excavate.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-slider-excavate.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-slider-operations.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-slider-operations.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-slider-operations.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-slider-operations.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-slider-screener.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-slider-screener.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-slider-screener.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-slider-screener.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/rosewall-slider-screener.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/rosewall-slider-screener.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/camera.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/camera.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/html5shiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/html5shiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/isotope.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.easing.1.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.stellar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.stellar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/respond.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/camera.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/camera.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/owl.carousel.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/owl.carousel.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/owl.transitions.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/owl.transitions.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/contacts_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/contacts_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/pages_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/pages_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/contacts_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/contacts_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/concerns/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/contact.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/contact.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/contacts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/contacts/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/contacts_mailer/general_message.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contacts_mailer/general_message.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer_navigation_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer_navigation_links.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation_links.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_products_carousel.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_products_carousel.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/about.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/about.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/calculator.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/calculator.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/delivery.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/delivery.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/products.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/products.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deploy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/deploy.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deploy/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/deploy/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deploy/staging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/deploy/staging.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deployOG.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/deployOG.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pumaOG.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/pumaOG.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/sitemap.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/sitemap.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20181007134428_create_contacts.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20181007134428_create_contacts.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/server-info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/info/server-info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/lib/assets/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/log/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/422.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/422.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/storage/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/contacts_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/contacts_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/pages_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/pages_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/contacts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/contacts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/contacts_mailer_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/contacts_mailer_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/previews/contacts_mailer_preview.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/previews/contacts_mailer_preview.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/contact_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/contact_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/contacts_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/contacts_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/pages_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/pages_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/.keep" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +223,9 @@
     <session id="-2064618452">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="54" />
+          <entry key="project.closed" value="55" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="2" />
@@ -45,7 +240,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="56" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,7 +252,7 @@
           <entry key="conf" value="7" />
           <entry key="css" value="24" />
           <entry key="enc" value="1" />
-          <entry key="erb" value="196" />
+          <entry key="erb" value="198" />
           <entry key="gitignore" value="10" />
           <entry key="html" value="25" />
           <entry key="jpg" value="18" />
@@ -70,7 +265,7 @@
           <entry key="png" value="1" />
           <entry key="rails" value="1" />
           <entry key="rake" value="1" />
-          <entry key="rb" value="130" />
+          <entry key="rb" value="132" />
           <entry key="ru" value="4" />
           <entry key="scss" value="51" />
           <entry key="setup" value="1" />
@@ -88,8 +283,8 @@
           <entry key="Image" value="19" />
           <entry key="JavaScript" value="46" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="RHTML" value="196" />
-          <entry key="Ruby" value="159" />
+          <entry key="RHTML" value="198" />
+          <entry key="Ruby" value="161" />
           <entry key="SCSS" value="51" />
           <entry key="Scratch" value="1" />
           <entry key="SourceMap" value="3" />
@@ -132,11 +327,45 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/products.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="129" column="66" lean-forward="true" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-341" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>row</find>
       <find>prev</find>
       <find>prev.</find>
       <find>logo</find>
@@ -166,6 +395,7 @@
       <find>navb</find>
       <find>who</find>
       <find>contact</find>
+      <find>contacts</find>
     </findStrings>
     <replaceStrings>
       <replace>tag(&quot;</replace>
@@ -263,14 +493,12 @@
         <option value="$PROJECT_DIR$/app/views/contacts/thanks.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation_links.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer_navigation_links.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_products_carousel.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" />
         <option value="$PROJECT_DIR$/app/views/contacts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/calculator.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/products.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
@@ -278,6 +506,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/products.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
       </list>
     </option>
   </component>
@@ -316,6 +546,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,6 +571,12 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rosewall" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rosewall" type="b2602c69:ProjectViewProjectNode" />
@@ -382,14 +619,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="SearchEverywhereHistoryKey" value="rou&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;ro&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;rout&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb&#10;conta&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/contacts_controller.rb&#10;cont&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/mailers/contacts_mailer.rb&#10;mod&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/assets/stylesheets/modern-business.css.scss&#10;in&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/views/pages/index.html.erb&#10;con&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/views/pages/contact.html.erb&#10;de&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/deploy.rb&#10;pages&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;page&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;pag&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/controllers/pages_controller.rb&#10;ap&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/views/layouts/application.html.erb&#10;app&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/app/assets/javascripts/application.js&#10;gem&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/Gemfile&#10;gr&#9;null&#9;null&#10;rosewall&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/srng/RubymineProjects/rosewall/config/routes.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myway" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -593,6 +829,8 @@
       <workItem from="1551243894516" duration="61000" />
       <workItem from="1551304761617" duration="5829000" />
       <workItem from="1551575379349" duration="51000" />
+      <workItem from="1551659780629" duration="2349000" />
+      <workItem from="1562366914131" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="adjust puma">
       <created>1538409449838</created>
@@ -605,12 +843,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276318000" />
+    <option name="totallyTimeSpent" value="278827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="37" width="1920" height="1043" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.23573735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.24252136" />
       <window_info id="Structure" order="1" sideWeight="0.5008375" side_tool="true" weight="0.19590957" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -623,7 +862,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.32312927" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994618" visible="true" weight="0.6110509" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053823" side_tool="true" weight="0.4047619" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32993197" />
@@ -761,22 +1000,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/calculator.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -786,13 +1015,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/pids/server.pid" />
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/contacts_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -826,13 +1048,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/about.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/products.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/rosewall-delivery.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -886,6 +1101,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="2379" column="8" selection-start-line="2379" selection-start-column="1" selection-end-line="2379" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/products.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="129" column="66" lean-forward="true" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
